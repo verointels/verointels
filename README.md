@@ -1,5 +1,9 @@
 # VERO — Verifiable Events & Research Observatory
 
+<p align="center">
+  <img src="VERO.png" alt="VERO Logo" width="120" style="border-radius: 50%;">
+</p>
+
 VERO is an independent intelligence monitoring project. The platform aggregates global geopolitical developments, military shifts, and economic policies into a streamlined, noise-free interface.
 
 ### Infrastructure
@@ -11,4 +15,4 @@ VERO is an independent intelligence monitoring project. The platform aggregates 
 ### Governance
 Architected and maintained by [@leclavier](https://github.com/leclavier).
 
-**Contact:** veropol@proton.me
+**Contact:** __veropol@proton.me__
