@@ -1,16 +1,20 @@
-## Hi there 👋
+# VERO — Verifiable Events & Research Observatory
 
-<!--
-**verointels/verointels** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+VERO is a lightweight, real-time intelligence monitoring platform. It aggregates global geopolitical developments, diplomatic shifts, and economic policies into a streamlined, noise-free interface using live data feeds.
 
-Here are some ideas to get you started:
+## Operational Architecture
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript (ES6+)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas (Mongoose) for secure transmission logging
+- **Data Pipeline:** GNews API integration for live global intelligence
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Core Capabilities
+- **Live Intelligence Feed:** Real-time data aggregation focusing on international relations.
+- **Dynamic Categorization:** Automated tagging (Diplomacy, Military, Economy) based on semantic content parsing.
+- **Secure Transmission Channel:** Direct encrypted database routing for user reports and access requests.
+- **Persistent Uptime:** Integrated `/ping` endpoint configured for cron-job keep-alive services.
+
+## Deployment Setup
+1. Clone the repository and install dependencies (`npm install`).
+2. Configure `.env` with `PORT`, `GNEWS_API_KEY`, and `MONGODB_URI`.
+3. Initialize the server via `node server.js`.
